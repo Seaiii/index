@@ -1,0 +1,2 @@
+//¿¡»ÀÕºø‚ www.lanrentuku.com¶Å
+$(document).ready(function(){$('.listimg').hover(function(){$(".summary",this).stop().animate({top:'310px'},{queue:false,duration:180});},function(){$(".summary",this).stop().animate({top:'365px'},{queue:false,duration:180});});});

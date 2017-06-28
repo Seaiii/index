@@ -1,0 +1,26 @@
+2017年1月11日
+<div id="logo">
+		<img id="z1" src="img/logo.jpg" width="100%" height="400px" />
+		<img id="z2" src="img/logo1.jpg" width="100%" height="400px" />
+</div> 
+<div class="container">
+	<div class="row">
+    	<div class="col-md-6 pull-right">
+        	<div class="circle2" style="width: 20px;height: 20px;background:red;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;"  ></div> 
+        </div>
+        <div class="col-md-0 pull-right">
+        	<div class="circle1" style="width: 20px;height: 20px;background:black;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;" ></div> 
+        </div>
+    
+    </div>
+</div>
+    
+<script src="js/a.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+
+旋转
+#tp{-moz-transition: -moz-transform 1s; /* Firefox 4 */-webkit-transition:-webkit-transform 2s; /* Safari and Chrome */-o-transition: -o-transform 1s; /* Opera*/}
+#tp:hover
+{transform:rotate(360deg);-moz-transform:rotate(360deg); /* Firefox 4 */-webkit-transform:rotate(360deg); /* Safari and Chrome */-o-transform:rotate(360deg); /* Opera */}
